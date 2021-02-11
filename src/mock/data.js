@@ -49,7 +49,7 @@ export const projectsData = [
     title: 'Never Forget',
     info: 'November 2020',
     info2: 'Never Forget, a Remember the Milk clone, is an app designed to sort and organize your to-do tasks.',
-    url: 'https://app-never-forget.herokuapp.com/app',
+    url: 'https://app-never-forget.herokuapp.com/',
     repo: 'https://github.com/sjstark/Never-Forget', // if no repo, the button will not show up
   },
   {
