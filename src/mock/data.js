@@ -21,7 +21,6 @@ export const aboutData = {
   paragraphOne: 'I\'m a Software Developer with experience developing full-stack applications leveraging a multitude of tools including JavaScript, Python, CSS, SCSS, HTML, React / Redux, and Express and Flask backend servers.',
   paragraphTwo: 'I have roots in live events and theater, both producing experiential events for major companies as well as designing sets and props for theater. I\'m looking to take my knowledge of how people interact, problem solving on the fly, and the flow of human nature into the work of software! ',
   paragraphThree: ' ',
-  resume: 'STARK_SAM_RESUME.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
