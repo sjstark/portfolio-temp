@@ -15,6 +15,7 @@ function App() {
   const [projects, setProjects] = useState([]);
   const [contact, setContact] = useState({});
   const [footer, setFooter] = useState({});
+  const [isLoaded, setLoaded] = useState(false)
 
   useEffect(() => {
     setHero({ ...heroData });
@@ -22,15 +23,20 @@ function App() {
     setProjects([...projectsData]);
     setContact({ ...contactData });
     setFooter({ ...footerData });
+    setLoaded(true)
   }, []);
 
   return (
     <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
-      <Hero />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
+      {isLoaded && (
+        <>
+          <Hero />
+          <About />
+          <Projects />
+          <Contact />
+          <Footer />
+        </>
+      )}
     </PortfolioProvider>
   );
 }
